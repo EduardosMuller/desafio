@@ -1,0 +1,1494 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media (min-width:1441px) {
+    
+
+    /*--------------------------------------------------Navbar Superior--------------------------------------------------*/
+    .upperNavBar{
+        background-color: black;
+        display: flex;
+        height:1.5rem
+    }
+    p.linksUpperNavBar{
+        color:white;
+        margin-right: 10rem;
+    }
+    p a{
+        color:white;
+        text-decoration: underline;
+    
+    }
+    
+    
+    
+    .navSearch{
+        width:26rem
+    }
+    .navSearch form input{
+        width:20rem!important
+    }
+    
+    .navSearch form button{
+        background-color:#cd0e1e!important;
+    }
+    .navSearch form button:hover{
+        background-color:#72040d!important;
+    
+    }
+    header{
+        margin:0 8.5rem
+    }
+    
+    .navbarProducts{
+        height:3.5rem;
+        background-color: #cd0e1e;
+    }
+    
+    ul.navProducts{
+        margin-top: 0.5rem;
+        list-style: none;
+        margin-left: 6.3rem;
+    }
+    
+    ul.navProducts li{
+        display: inline;
+        margin-right: 6rem;
+        
+    }
+    ul.navProducts li a{
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+    }
+    
+    .logo{
+        width:12rem
+    }
+    
+    /*--------------------------------------------------Sessão Principal--------------------------------------------------*/
+    
+    .main{
+        margin: 0 10rem;
+    }
+    
+    /*--------------------------------------------------Navbar lateral--------------------------------------------------*/
+    
+    div h6.navegacao{
+        padding:1.5rem 0 1rem;
+        margin-left: 10rem;
+    }
+    div h6 span{
+        color:gray
+    }
+    
+    div h6 span.spanRed{
+        color: #cd0e1e;
+    }
+    
+    .navbarLateral {
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:30rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem
+    }
+    
+    .navbarLateralCamisetas{
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:23rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem
+    }
+    .navbarLateralSapatos{
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:25rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem;
+        
+    }
+    
+    .navbarLateral h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbarLateralCamisetas h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbarLateralSapatos h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .navbarLateral h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbarLateralCamisetas h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .navbarLateralSapatos h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .listaLateral{
+        margin-left: -1.2rem;
+       font-size: 1.2rem;
+       color: rgb(109, 109, 109);
+    }
+    
+    .coresLista li{
+    
+        display: inline-block;
+    }
+    
+    li.corVermelha{
+        margin-left: -2.5rem;
+        padding:0.7rem 1.5rem;
+        margin-right: 0.2rem;
+        background-color: #cc0d1f;
+        border: 1px solid #de6973;
+    }
+    
+    li.corLaranja{
+        padding:0.7rem 1.5rem;
+        margin-right: 0.18rem;
+        background-color: #f36324;
+        border: 1px solid #f69e78;
+    }
+    
+    li.corCiano{
+    
+        padding:0.7rem 1.5rem;
+        background-color: #28a3aa;
+        border: 1px solid #7ac4c9
+    }
+    
+    
+    div.divIcon{
+       margin:  0 0 0 1.5rem;
+    }
+    img.icon1{
+        width:1.4rem;
+        height:auto;
+        display: inline-block
+    }
+    img.icon2{
+        width:1.2rem;
+        height:auto;
+        margin:0 0.5rem -0.1rem .5rem;
+        color:#7ac4c9!important;
+        display: inline-block
+    }
+    
+    .filtroSelect{
+        width: 22rem;
+        display: inline-flex
+    }
+    .filtroSelect label{
+        width:13rem;
+        color: #8c8d8d;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 0.8rem;
+    }
+    
+    
+    
+    /*--------------------------------------------------Lista de produtos--------------------------------------------------*/
+    
+    div.mainTitle h2{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .card-img-top{
+        max-width: 230px;
+        height:220px;
+        border: 1px solid rgba(187, 182, 182, 0.466);
+        padding:1px;
+    }
+      
+    hr{
+        margin-top:0.5rem!important;
+        margin-bottom:0.5rem!important;
+    }
+    .card{
+        border:none!important;
+         transition: transform 0.5s;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+    }
+    .card-body{
+        padding:1rem 0.5rem 0!important;
+        text-align: center
+    }
+    .card-body h6.produtoNome{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        min-height: 2.5rem;
+    }
+    .card-body span{
+        color:#cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    
+    }
+    .col-sm-3{
+        margin:1rem 0 ;
+    }
+    .card-deck .card {
+        margin-right: 0!important;
+    }
+    
+    .btn{
+        background-color: #80bdb8!important;
+        color:white!important;
+        font-family: 'Open Sans', sans-serif!important;
+        font-weight: 800!important;
+    }
+    .btn:hover{
+        background-color: #42a098!important;
+       
+    }
+    
+    
+    
+    /*--------------------------------------------------Seletor de pagina de conteúdo--------------------------------------------------*/
+    .page-item-selected a{
+        border:none!important;
+        color:#cd0e1e;
+    }
+    .page-item a{
+        border:none!important;
+        color: gray!important;
+    }
+    
+    /*--------------------------------------------------Footer--------------------------------------------------*/
+    
+    .footer{
+        background-color: #cd0e1e;
+        padding:1rem;
+        margin:0 10rem
+    }
+    footer p {
+        color:white
+    }
+    
+    }
+@media (min-width:  1025px) and (max-width: 1440px){
+    
+
+/*--------------------------------------------------Navbar Superior--------------------------------------------------*/
+.upperNavBar{
+    background-color: black;
+    display: flex;
+    height:1.5rem
+}
+p.linksUpperNavBar{
+    color:white;
+    margin-right: 10rem;
+}
+p a{
+    color:white;
+    text-decoration: underline;
+
+}
+
+
+
+.navSearch{
+    width:26rem
+}
+.navSearch form input{
+    width:20rem!important
+}
+
+.navSearch form button{
+    background-color:#cd0e1e!important;
+}
+.navSearch form button:hover{
+    background-color:#72040d!important;
+
+}
+header{
+    margin:0 8.5rem
+}
+
+.navbarProducts{
+    height:3.5rem;
+    background-color: #cd0e1e;
+}
+
+ul.navProducts{
+    margin-top: 0.5rem;
+    list-style: none;
+    margin-left: 6.3rem;
+}
+
+ul.navProducts li{
+    display: inline;
+    margin-right: 6rem;
+    
+}
+ul.navProducts li a{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.logo{
+    width:12rem
+}
+
+/*--------------------------------------------------Sessão Principal--------------------------------------------------*/
+
+.main{
+    margin: 0 10rem;
+}
+
+/*--------------------------------------------------Navbar lateral--------------------------------------------------*/
+
+div h6.navegacao{
+    padding:1.5rem 0 1rem;
+    margin-left: 10rem;
+}
+div h6 span{
+    color:gray
+}
+
+div h6 span.spanRed{
+    color: #cd0e1e;
+}
+
+.navbarLateral {
+    border:1px solid rgba(204, 201, 201, 0.459);
+    height:450px;
+    width:30rem!important;
+    padding: 1.4rem 0 1.4rem 0.5rem
+}
+
+.navbarLateralCamisetas{
+    border:1px solid rgba(204, 201, 201, 0.459);
+    height:450px;
+    width:23rem!important;
+    padding: 1.4rem 0 1.4rem 0.5rem
+}
+.navbarLateralSapatos{
+    border:1px solid rgba(204, 201, 201, 0.459);
+    height:450px;
+    width:25rem!important;
+    padding: 1.4rem 0 1.4rem 0.5rem;
+    
+}
+
+.navbarLateral h4{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbarLateralCamisetas h4{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbarLateralSapatos h4{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbarLateral h5{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbarLateralCamisetas h5{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbarLateralSapatos h5{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.listaLateral{
+    margin-left: -1.2rem;
+   font-size: 1.2rem;
+   color: rgb(109, 109, 109);
+}
+
+.coresLista li{
+
+    display: inline-block;
+}
+
+li.corVermelha{
+    margin-left: -2.5rem;
+    padding:0.7rem 1.5rem;
+    margin-right: 0.2rem;
+    background-color: #cc0d1f;
+    border: 1px solid #de6973;
+}
+
+li.corLaranja{
+    padding:0.7rem 1.5rem;
+    margin-right: 0.18rem;
+    background-color: #f36324;
+    border: 1px solid #f69e78;
+}
+
+li.corCiano{
+
+    padding:0.7rem 1.5rem;
+    background-color: #28a3aa;
+    border: 1px solid #7ac4c9
+}
+
+
+div.divIcon{
+   margin:  0 0 0 1.5rem;
+}
+img.icon1{
+    width:1.4rem;
+    height:auto;
+    display: inline-block
+}
+img.icon2{
+    width:1.2rem;
+    height:auto;
+    margin:0 0.5rem -0.1rem .5rem;
+    color:#7ac4c9!important;
+    display: inline-block
+}
+
+.filtroSelect{
+    width: 22rem;
+    display: inline-flex
+}
+.filtroSelect label{
+    width:13rem;
+    color: #8c8d8d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+
+
+/*--------------------------------------------------Lista de produtos--------------------------------------------------*/
+
+div.mainTitle h2{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-img-top{
+    max-width: 230px;
+    height:220px;
+    border: 1px solid rgba(187, 182, 182, 0.466);
+    padding:1px;
+}
+  
+hr{
+    margin-top:0.5rem!important;
+    margin-bottom:0.5rem!important;
+}
+.card{
+    border:none!important;
+     transition: transform 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.card-body{
+    padding:1rem 0.5rem 0!important;
+    text-align: center
+}
+.card-body h6.produtoNome{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    min-height: 2.5rem;
+}
+.card-body span{
+    color:#cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-bottom: 1rem;
+
+}
+.col-sm-3{
+    margin:1rem 0 ;
+}
+.card-deck .card {
+    margin-right: 0!important;
+}
+
+.btn{
+    background-color: #80bdb8!important;
+    color:white!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-weight: 800!important;
+}
+.btn:hover{
+    background-color: #42a098!important;
+   
+}
+
+
+
+/*--------------------------------------------------Seletor de pagina de conteúdo--------------------------------------------------*/
+.page-item-selected a{
+    border:none!important;
+    color:#cd0e1e;
+}
+.page-item a{
+    border:none!important;
+    color: gray!important;
+}
+
+/*--------------------------------------------------Footer--------------------------------------------------*/
+
+.footer{
+    background-color: #cd0e1e;
+    padding:1rem;
+    margin:0 10rem
+}
+footer p {
+    color:white
+}
+
+}
+@media (max-width: 320px) {
+    /*--------------------------------------------------Navbar Superior--------------------------------------------------*/
+.upperNavBar{
+    background-color: black;
+    display: flex;
+    height:1.5rem;
+
+    width:100vw!important
+}
+p.linksUpperNavBar{
+    color:white;
+    
+}
+p a{
+    color:white;
+    text-decoration: underline;
+
+}
+
+
+
+.navSearch{
+    width:20rem
+}
+.navSearch form input{
+    width:10rem!important
+}
+
+.navSearch form button{
+    background-color:#cd0e1e!important;
+}
+.navSearch form button:hover{
+    background-color:#72040d!important;
+
+}
+header{
+    margin:0
+}
+
+.navbarProducts{
+    height:3.5rem;
+    background-color: #cd0e1e;
+}
+
+ul.navProducts{
+    margin-top: 0.5rem;
+    list-style: none;
+    margin: 0.5rem 3.5rem;
+    display:grid!important
+
+}
+
+ul.navProducts li{
+    display: inline;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+ul.navProducts li a{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+div.navbarProducts{
+    height:15rem!important
+}
+.logo{
+    width:12rem
+}
+
+/*--------------------------------------------------Sessão Principal--------------------------------------------------*/
+
+
+/*--------------------------------------------------Navbar lateral--------------------------------------------------*/
+
+div h6.navegacao{
+    padding:1.5rem 0 1rem;
+
+}
+div h6 span{
+    color:gray
+}
+
+div h6 span.spanRed{
+    color: #cd0e1e;
+}
+
+.navbarLateral {
+    border:1px solid rgba(204, 201, 201, 0.459);
+    height:450px;
+    width:30rem!important;
+    padding: 1.4rem 0 1.4rem 0.5rem
+}
+
+.navbarLateralCamisetas{
+    border:1px solid rgba(204, 201, 201, 0.459);
+    height:450px;
+    width:23rem!important;
+    padding: 1.4rem 0 1.4rem 0.5rem
+}
+.navbarLateralSapatos{
+    border:1px solid rgba(204, 201, 201, 0.459);
+    height:450px;
+    width:25rem!important;
+    padding: 1.4rem 0 1.4rem 0.5rem;
+    
+}
+
+.navbarLateral h4{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbarLateralCamisetas h4{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbarLateralSapatos h4{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbarLateral h5{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbarLateralCamisetas h5{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbarLateralSapatos h5{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.listaLateral{
+    margin-left: -1.2rem;
+   font-size: 1.2rem;
+   color: rgb(109, 109, 109);
+}
+
+.coresLista li{
+
+    display: inline-block;
+}
+
+li.corVermelha{
+    margin-left: -2.5rem;
+    padding:0.7rem 1.5rem;
+    margin-right: 0.2rem;
+    background-color: #cc0d1f;
+    border: 1px solid #de6973;
+}
+
+li.corLaranja{
+    padding:0.7rem 1.5rem;
+    margin-right: 0.18rem;
+    background-color: #f36324;
+    border: 1px solid #f69e78;
+}
+
+li.corCiano{
+
+    padding:0.7rem 1.5rem;
+    background-color: #28a3aa;
+    border: 1px solid #7ac4c9
+}
+
+
+div.divIcon{
+   margin:  0 0 0 1.5rem;
+}
+img.icon1{
+    width:0rem;
+    height:auto;
+    
+}
+img.icon2{
+    width:0rem;
+}
+
+.filtroSelect{
+    width: 22rem;
+    display: inline-flex
+}
+.filtroSelect label{
+    width:13rem;
+    color: #8c8d8d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+
+
+/*--------------------------------------------------Lista de produtos--------------------------------------------------*/
+.col-3{
+   max-width: 100vw!important;
+}
+
+div.main{
+    display: inline!important;
+}
+div.col-sm-3 {
+    -ms-flex: 0 0 100%!important;
+    flex: 0 0 100%!important;
+    max-width:100%!important;
+    margin: 0!important;
+    height:381px!important
+}
+
+div.mainTitle h2{
+    color: #cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-img-top{
+    max-width: 230px;
+    height:220px;
+    border: 1px solid rgba(187, 182, 182, 0.466);
+    padding:1px;
+}
+  
+hr{
+    margin-top:0.5rem!important;
+    margin-bottom:0.5rem!important;
+}
+.card{
+    border:none!important;
+     transition: transform 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.card-body{
+    padding:1rem 0.5rem 0!important;
+    text-align: center;
+    max-height: 100px;
+}
+.card-body h6.produtoNome{
+    color: #80bdb8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    min-height: 1.5rem;
+    font-size: 0.8rem!important;
+}
+.card-body span{
+    color:#cd0e1e;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-bottom: 1rem;
+
+}
+.col-sm-3{
+    margin:1rem 0 ;
+}
+.card-deck {
+    margin-right: 0!important;
+    column-count: 2;
+    
+}
+
+.btn{
+    background-color: #80bdb8!important;
+    color:white!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-weight: 800!important;
+}
+.btn:hover{
+    background-color: #42a098!important;
+   
+}
+
+
+
+/*--------------------------------------------------Seletor de pagina de conteúdo--------------------------------------------------*/
+.page-item-selected a{
+    border:none!important;
+    color:#cd0e1e;
+}
+.page-item a{
+    border:none!important;
+    color: gray!important;
+}
+
+/*--------------------------------------------------Footer--------------------------------------------------*/
+
+.footer{
+    background-color: #cd0e1e;
+    padding:1rem;
+    
+}
+footer p {
+    color:white
+}
+ }
+
+@media (min-width: 321px) and (max-width: 768px) {
+    
+     
+    /*--------------------------------------------------Navbar Superior--------------------------------------------------*/
+    .upperNavBar{
+        background-color: black;
+        display: flex;
+        height:2rem;
+     
+    }
+    p.linksUpperNavBar{
+        color:white;
+        margin-right: 5rem;
+     
+    }
+    p a{
+        color:white;
+        text-decoration: underline;
+    
+    }
+    
+    
+    .navSearch{
+        width:12rem
+    }
+    .navSearch form input{
+        width:8rem!important;
+        height:2rem;
+        font-size: 0.7rem;
+        
+    }
+    
+    .navSearch form button{
+        background-color:#cd0e1e!important;
+        width:4rem;
+        height:2rem;
+        font-size: 0.7rem;
+    }
+    .navSearch form button:hover{
+        background-color:#72040d!important;
+    
+    }
+    header{
+        margin:0
+    }
+    
+    .navbarProducts{
+        color:white;
+        background-color: #cd0e1e;
+    }
+    
+    ul.navProducts{
+        margin-top: 0.5rem;
+        list-style: none;
+        margin-left: -2rem;
+    }
+    
+    ul.navProducts li{
+        display: inline;
+        margin-right:1.2rem;
+        
+    }
+    ul.navProducts li a{
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    
+    .logo{
+        width:10rem
+    }
+    
+    /*--------------------------------------------------Sessão Principal--------------------------------------------------*/
+    
+    .main{
+        margin: 0 1rem;
+    }
+    
+    /*--------------------------------------------------Navbar lateral--------------------------------------------------*/
+    
+    div h6.navegacao{
+        padding:1.5rem 0 1rem;
+        margin-left: 1rem;
+        font-size: 0.91rem;
+    }
+    div h6 span{
+        color:gray
+    }
+    
+    div h6 span.spanRed{
+        color: #cd0e1e;
+    }
+    
+    .navbarLateral {
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:40rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem
+    }
+    
+    .navbarLateralCamisetas{
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:23rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem
+    }
+    .navbarLateralSapatos{
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:25rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem;
+        
+    }
+    
+    .navbarLateral h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .85rem!important;
+    }
+    
+    .navbarLateralCamisetas h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .85rem!important;
+    }
+    
+    .navbarLateralSapatos h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+             font-size: .85rem!important;
+    }
+    .navbarLateral h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .7rem!important;
+    }
+    
+    .navbarLateralCamisetas h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .7rem!important;
+    }
+    .navbarLateralSapatos h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .7rem!important;
+    }
+    
+    .listaLateral{
+        margin-left: -1.2rem;
+       font-size: 1.2rem;
+       color: rgb(109, 109, 109);
+    }
+    .listaLateral li{
+       font-size: 0.6rem;
+    }
+    
+    .productsArea{
+        width: 100%;
+       
+    }
+    
+    .col-sm-3{
+        padding-right: 0!important;
+    }
+    .coresLista li{
+    
+        display: inline-block;
+    }
+    
+    li.corVermelha{
+        margin-left: -3rem;
+        padding:0.4rem 0.5rem;
+        margin-right: 0.2rem;
+        background-color: #cc0d1f;
+        border: 1px solid #de6973;
+        
+    }
+    
+    li.corLaranja{
+        padding:0.4rem 0.5rem;
+        margin-right: 0.18rem;
+        background-color: #f36324;
+        border: 1px solid #f69e78;
+    }
+    
+    li.corCiano{
+    
+        padding:0.4rem 0.5rem;
+        background-color: #28a3aa;
+        border: 1px solid #7ac4c9;
+    }
+    
+    
+    div.divIcon{
+       margin:  0 0 0 1.5rem;
+    }
+    img.icon1{
+        width:1.4rem;
+        height:auto;
+        display: inline-block
+    }
+    img.icon2{
+        width:1.2rem;
+        height:auto;
+        margin:0 0.5rem -0.1rem .5rem;
+        color:#7ac4c9!important;
+        display: inline-block
+    }
+    
+    .filtroSelect{
+        width: 14rem;
+        display: inline-flex
+    }
+    .filtroSelect label{
+        width:10rem;
+        color: #8c8d8d;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 0.7rem;
+    }
+    
+    
+    
+    /*--------------------------------------------------Lista de produtos--------------------------------------------------*/
+   
+    .col-sm-3 {
+        -ms-flex: 0 0 33%!important;
+        flex: 0 0 33%!important;
+        max-width: 33%!important;
+    }
+    div.mainTitle h2{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .card-img-top{
+        max-width: 230px;
+        height:220px;
+        border: 1px solid rgba(187, 182, 182, 0.466);
+        padding:1px;
+    }
+    .card-deck {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    *,
+    hr{
+        margin-top:0.5rem!important;
+        margin-bottom:0.5rem!important;
+    }
+  
+    .card{
+        border:none!important;
+         transition: transform 0.5s;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+    }
+    .card-body{
+        padding:1rem 0.5rem 0!important;
+        text-align: center
+    }
+    .card-body h6.produtoNome{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        min-height: 2.5rem;
+    }
+    .card-body span{
+        color:#cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    
+    }
+    .col-sm-3{
+        margin:1rem 0 ;
+    }
+    .card-deck .card {
+        margin-right: 0!important;
+    }
+    
+    .btn{
+        background-color: #80bdb8!important;
+        color:white!important;
+        font-family: 'Open Sans', sans-serif!important;
+        font-weight: 800!important;
+        padding: .375rem 0.2rem!important;  
+    }
+    .btn:hover{
+        background-color: #42a098!important;
+       
+    }
+    
+    
+    
+    /*--------------------------------------------------Seletor de pagina de conteúdo--------------------------------------------------*/
+    .page-item-selected a{
+        border:none!important;
+        color:#cd0e1e;
+    }
+    .page-item a{
+        border:none!important;
+        color: gray!important;
+    }
+    
+    /*--------------------------------------------------Footer--------------------------------------------------*/
+    
+    .footer{
+        background-color: #cd0e1e;
+        padding:1rem;
+      
+    }
+    footer p {
+        color:white
+    } }
+   
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    
+    /*--------------------------------------------------Navbar Superior--------------------------------------------------*/
+    .upperNavBar{
+        background-color: black;
+        display: flex;
+        height:1.5rem
+
+    }
+    p.linksUpperNavBar{
+        color:white;
+        margin-right: 2rem;
+    }
+    p a{
+        color:white;
+        text-decoration: underline;
+    
+    }
+    
+    .navSearch{
+        width:18rem
+    }
+    .navSearch form input{
+        width:12rem!important
+    }
+    
+    .navSearch form button{
+        background-color:#cd0e1e!important;
+    
+    }
+    .navSearch form button:hover{
+        background-color:#72040d!important;
+    
+    }
+    
+    .navbarProducts{
+        height:3.5rem;
+        background-color: #cd0e1e;
+    }
+    
+    ul.navProducts{
+       margin-top: 0.5rem;
+        list-style: none;
+        margin-left: -2rem;
+        
+    }
+    
+    ul.navProducts li{
+        display: inline;
+        margin-right: 2rem;
+        
+    }
+    ul.navProducts li a{
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+    }
+    
+    .logo{
+        width:10rem
+    }
+    
+    /*--------------------------------------------------Sessão Principal--------------------------------------------------*/
+    
+    .main{
+        margin: 0 1rem;
+    }
+    
+    /*--------------------------------------------------Navbar lateral--------------------------------------------------*/
+    
+    div h6.navegacao{
+        padding:1.5rem 0 1rem;
+        margin-left: 1rem;
+    }
+    div h6 span{
+        color:gray
+    }
+    
+    div h6 span.spanRed{
+        color: #cd0e1e;
+    }
+    
+    .navbarLateral {
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:30rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem
+    }
+    
+    .navbarLateralCamisetas{
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:23rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem
+    }
+    .navbarLateralSapatos{
+        border:1px solid rgba(204, 201, 201, 0.459);
+        height:450px;
+        width:25rem!important;
+        padding: 1.4rem 0 1.4rem 0.5rem;
+        
+    }
+    
+    .navbarLateral h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbarLateralCamisetas h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbarLateralSapatos h4{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .navbarLateral h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbarLateralCamisetas h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .navbarLateralSapatos h5{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .listaLateral{
+        margin-left: -1.2rem;
+       font-size: 1.2rem;
+       color: rgb(109, 109, 109);
+    }
+    
+    .coresLista li{
+    
+        display: inline-block;
+    }
+    
+    li.corVermelha{
+        margin-left: -2.5rem;
+        padding:0.7rem 1.5rem;
+        margin-right: 0.2rem;
+        background-color: #cc0d1f;
+        border: 1px solid #de6973;
+    }
+    
+    li.corLaranja{
+        padding:0.7rem 1.5rem;
+        margin-right: 0.18rem;
+        background-color: #f36324;
+        border: 1px solid #f69e78;
+    }
+    
+    li.corCiano{
+    
+        padding:0.7rem 1.5rem;
+        background-color: #28a3aa;
+        border: 1px solid #7ac4c9
+    }
+    
+    
+    div.divIcon{
+       margin:  0 0 0 1.5rem;
+    }
+    img.icon1{
+        width:1.4rem;
+        height:auto;
+        display: inline-block
+    }
+    img.icon2{
+        width:1.2rem;
+        height:auto;
+        margin:0 0.5rem -0.1rem .5rem;
+        color:#7ac4c9!important;
+        display: inline-block
+    }
+    
+    .filtroSelect{
+        width: 15rem;
+        display: inline-flex
+    }
+    .filtroSelect label{
+        width: 12rem;
+        color: #8c8d8d;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 0.8rem;
+    }
+    
+    
+    
+    /*--------------------------------------------------Lista de produtos--------------------------------------------------*/
+    
+    div.mainTitle h2{
+        color: #cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .card-img-top{
+        max-width: 230px;
+        height:220px;
+        border: 1px solid rgba(187, 182, 182, 0.466);
+        padding:1px;
+    }
+      
+    hr{
+        margin-top:0.5rem!important;
+        margin-bottom:0.5rem!important;
+    }
+    .card{
+        border:none!important;
+         transition: transform 0.5s;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+    }
+    .card-body{
+        padding:1rem 0.5rem 0!important;
+        text-align: center
+    }
+    .card-body h6.produtoNome{
+        color: #80bdb8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        min-height: 2.5rem;
+    }
+    .card-body span{
+        color:#cd0e1e;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    
+    }
+    .col-sm-3{
+        margin:1rem 0 ;
+    }
+    .card-deck .card {
+        margin-right: 0!important;
+    }
+    
+    .btn{
+        background-color: #80bdb8!important;
+        color:white!important;
+        font-family: 'Open Sans', sans-serif!important;
+        font-weight: 800!important;
+        font-size: 0.8rem!important;
+       
+    }
+    
+    .btn:hover{
+        background-color: #42a098!important;
+       
+    }
+
+    .form-control{
+        height:2.1rem!important;
+        border-top-right-radius: 0!important;
+        border-bottom-right-radius: 0!important;
+        font-size: 0.8rem!important;
+    }
+    
+    
+    
+    /*--------------------------------------------------Seletor de pagina de conteúdo--------------------------------------------------*/
+    .page-item-selected a{
+        border:none!important;
+        color:#cd0e1e;
+    }
+    .page-item a{
+        border:none!important;
+        color: gray!important;
+    }
+    
+    /*--------------------------------------------------Footer--------------------------------------------------*/
+    
+    .footer{
+        background-color: #cd0e1e;
+        padding:1rem;
+      
+    }
+    footer p {
+        color:white
+    }
+
+}
+
